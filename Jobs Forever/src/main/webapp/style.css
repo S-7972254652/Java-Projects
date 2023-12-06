@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dropbtn {
+    background-color: transparent;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 560px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: transparent;
+  }
+  .main-img img{
+    margin-top: -16px;
+  }
+  /* .bg-content{
+    background-image: url(images/emp.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+  } */
+
+#name{
+  font-size: 17px;
+    font-weight: 700;
+    margin-top: 3px;
+    margin-bottom: 9px;
+    margin-top: 15px;
+}
+input[type=text]{
+    width: 94%;
+    padding: 4px;
+}
+input[type=email]{
+    width: 94%;
+    padding: 4px;
+}
+input[type=password]{
+    width: 94%;
+    padding: 4px;
+}
+.bt button{
+  padding: 10px 24px;
+  background-color: #7158cd;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}

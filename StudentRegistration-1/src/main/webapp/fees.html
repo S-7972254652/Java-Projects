@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<form action="fees" method="post" class="form card" id="frm" style="width: 40rem;margin:0 auto;margin-top: 100px;">
+	<table class="table table-hover">
+<h3 class="text-center bg-info p-2 text-white">Student Fees Details</h1>
+		<tr>
+			<td>Name</td>
+			<td><input type="text" name="name"></td>
+		</tr>
+		<tr>
+			<td>Amount</td>
+			<td><input type="text" name="amount"></td>
+		</tr>
+		<tr>
+			<td>Payment Method</td>
+			<td>
+			<input class="m-2" type="checkbox" name="pmode">Cash
+			<input class="m-2" type="checkbox" name="pmode">Phone Pay
+			<input class="m-2" type="checkbox" name="pmode">Google Pay
+			<input class="m-2" type="checkbox" name="pmode">Paytm
+			</td>
+		</tr>
+		<tr>
+			<td>Balanced Amount</td>
+			<td><input type="text" name="bamount"></td>
+		</tr>
+		<tr>
+			<td>Amount Paid In Words</td>
+			<td><input type="text" name="wamount"></td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="register"></td>
+			<td><input type="reset" name="Cancel"></td>
+		</tr>	
+	</table>
+	<a href="FeesList">FeesList</a>
+</body>
+</html>

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.modal-content {
+    position: relative!important;
+    display: flex!important;
+    flex-direction: column!important;
+    width: 700px!important;
+    pointer-events: auto!important;
+    background-color: #fff!important;
+    background-clip: padding-box!important;
+    border: 1px solid rgba(0,0,0,.2)!important;
+    border-radius: 0.3rem!important;
+    outline: 0!important;
+}
+input[type=text]{
+    padding: 5px
+}
+input[type=date]{
+    padding: 5px;
+}
+input[type=mobile]{
+    width: 100%;
+    padding: 5px;
+}
+input[type=res]{
+    width: 100%;
+    padding: 5px;
+}
+input[type=email]{
+    width: 100%;
+    padding: 5px;
+}
+input[type=college]{
+    width: 100%;
+    padding: 5px;
+}
+input[type=course]{
+    width: 100%;
+    padding: 5px;
+}
+input[type=remark]{
+    width: 100%;
+    padding: 5px;
+}
+.course input[type=date]{
+    width: 100%;
+}
+#date{
+    margin-left: 470px;
+}
+.email{
+    padding-top: 20px;
+    
+}
+.course{
+    padding-top: 20px;
+}
+.remark{
+    padding-top: 20px;
+}

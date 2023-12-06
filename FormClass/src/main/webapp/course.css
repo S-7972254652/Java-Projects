@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.modal-content {
+    position: relative!important;
+    display: flex!important;
+    flex-direction: column!important;
+    width: 700px!important;
+    pointer-events: auto!important;
+    background-color: #fff!important;
+    background-clip: padding-box!important;
+    border: 1px solid rgba(0,0,0,.2)!important;
+    border-radius: 0.3rem!important;
+    outline: 0!important;
+}
+input[type=course]{
+    width: 100%!important;
+    padding: 5px;
+    /* padding-bottom: 10px; */
+}
+input[type=duration]{
+    width: 100%!important;
+    padding: 5px;
+    /* padding-bottom: 10px;/ */
+}
+input[type=fees]{
+    width: 100%!important;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+label{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}

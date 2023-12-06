@@ -1,0 +1,6 @@
+1.add blocked user so that and send email as well to the users that they are blocked
+2.if they are regestired newly send a welcome email to new user
+3.if he order any thing send email to him for confirmation
+
+4.add forget password
+5.  

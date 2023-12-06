@@ -1,0 +1,18 @@
+class Adder{
+	void add(int a,double b) {
+		
+	}
+	void add() {
+		double a=40.5;
+		
+		
+	}
+}
+public class polymorphismmOverloading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,17 @@
+class Adder{
+	void add(int a,int b) {
+		System.out.println("int is print");
+	}
+	void add(double a,double b) {
+		System.out.println("Double is printed");
+	}
+}
+public class Moverloading3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Adder obj=new Adder();
+obj.add(4.5, 5.5);
+	}
+
+}

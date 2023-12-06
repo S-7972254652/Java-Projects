@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>ServletContextEvent and ServletContextListener</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>MyListener</display-name>
+    <servlet-name>MyListener</servlet-name>
+    <servlet-class>MyListener</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyListener</servlet-name>
+    <url-pattern>/MyListener</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MyListener1</display-name>
+    <servlet-name>MyListener1</servlet-name>
+    <servlet-class>MyListener1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyListener1</servlet-name>
+    <url-pattern>/MyListener1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MyListener2</display-name>
+    <servlet-name>MyListener2</servlet-name>
+    <servlet-class>MyListener2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyListener2</servlet-name>
+    <url-pattern>/MyListener2</url-pattern>
+  </servlet-mapping>
+</web-app>

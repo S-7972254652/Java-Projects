@@ -1,0 +1,5 @@
+127.0.0.1 - - [30/Aug/2023:09:43:31 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Aug/2023:09:43:32 +0530] "GET /NewSpringMVCMultipleViewpage/ HTTP/1.1" 200 77
+0:0:0:0:0:0:0:1 - - [30/Aug/2023:09:43:35 +0530] "GET /NewSpringMVCMultipleViewpage/hello HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [30/Aug/2023:09:45:14 +0530] "GET /NewSpringMVCMultipleViewpage/ HTTP/1.1" 200 77
+0:0:0:0:0:0:0:1 - - [30/Aug/2023:09:45:16 +0530] "GET /NewSpringMVCMultipleViewpage/hello HTTP/1.1" 404 682

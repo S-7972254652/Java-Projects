@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@charset "UTF-8";
+.nav-items ul{
+    list-style-type: none !important;
+
+}
+.nav-items ul li{
+    display: inline-block;
+    font-size: 18px;
+    padding: 35px 25px;
+}
+.nav-items ul li a{
+    color: #fd8e83;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+input[type="number"]{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}

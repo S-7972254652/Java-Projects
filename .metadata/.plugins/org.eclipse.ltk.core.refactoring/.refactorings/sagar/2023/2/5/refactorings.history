@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;sagar&apos;&#x0D;&#x0A;- Original project: &apos;sagar&apos;&#x0D;&#x0A;- Original element: &apos;sagar.pyramidnineBy9e.java&apos;" description="Delete element" element1="/src&lt;sagar{pyramidnineBy9e.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1675488390966" subPackages="false" version="1.0"/>
+</session>

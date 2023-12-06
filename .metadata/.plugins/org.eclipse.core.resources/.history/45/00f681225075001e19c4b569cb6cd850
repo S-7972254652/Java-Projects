@@ -1,0 +1,75 @@
+.back{
+    background-image: url("images/bagan-myanmar-PVKPPA8.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+    /* margin-top: 200px; */
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+.back::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #44233B;
+    opacity: 0.6;
+}
+.back ul{
+    list-style-type: none;
+}
+.back ul li{
+    display: inline-block;
+    padding: 40px;
+
+}
+.back ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.c-card{
+    background-color: #FFEFE2;
+    padding-bottom: 100px;
+}
+.card-body button{
+    padding: 14px 34px;
+    background-color: #44233B;
+    border-radius: 43px;
+}
+.card-body button a{
+    text-decoration: none;
+    color: #fff;
+}
+.card{
+    border:  solid 1px #FFEFE2;
+}
+.card:hover{
+    transition: all 0.8s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+footer{
+    background-color: #44233B;
+    /* height: 200px; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline-block;
+    padding: 25px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}

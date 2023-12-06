@@ -1,0 +1,12 @@
+
+public class Answer {
+	private int id;  
+	private String name;  
+	private String by;  
+	  
+	//setters and getters  
+	  
+	public String toString(){  
+	    return id+" "+name+" "+by;  
+	}  
+}

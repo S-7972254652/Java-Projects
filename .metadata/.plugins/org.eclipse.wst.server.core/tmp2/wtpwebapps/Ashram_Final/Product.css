@@ -1,0 +1,28 @@
+.nav-items ul{
+    list-style-type: none !important;
+
+}
+.nav-items ul li{
+    display: inline-block;
+    font-size: 18px;
+    padding: 35px 25px;
+}
+.nav-items ul li a{
+    color: #fd8e83;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Nova Square', sans-serif;
+font-family: 'Roboto Serif', serif;
+}
+
+.one-2:hover{
+  padding: 14px 34px;
+  background-image: linear-gradient(to top, #cea4a2, #c49a98, #b98f8d, #af8583, #a57b79, #9b706d, #906562, #865a57, #794b48, #6b3d39, #5e2f2b, #50211d);  margin-top: 0px;
+  border-radius: 25px;
+  transition: all 0.7s;
+  color: #000;
+}

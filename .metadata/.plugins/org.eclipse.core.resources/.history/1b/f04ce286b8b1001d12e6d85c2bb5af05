@@ -1,0 +1,25 @@
+abstract class Bike100{
+	Bike100(){
+		System.out.println("Bike is Created");
+	}
+	abstract void run();
+	void changeGear() {
+		System.out.println("Gear Changed");
+	}
+}
+	class Honda101 extends Bike100{
+		void run() {
+			System.out.println("Runing Safely..");
+		}
+	}
+	
+
+public class abstactandnonabstractbike {
+
+	public static void main(String[] args) {
+		Bike100 obj=new Honda101();
+		obj.run();
+		obj.changeGear();  
+	}
+
+}

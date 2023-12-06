@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Poppins', sans-serif; */
+  body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#main-logo img{
+    
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    width: 83px;
+    height: 83px;
+    background-position: -462px 0;
+    margin: 22px 0;
+    cursor: pointer;
+    
+}
+
+.collapse li a{
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+    padding-left: 50px !important;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* Search bar */
+/* Styles for wrapping the search box */
+
+.main {
+    width: 25%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+/* Search bar */
+.one{
+    display: flex;
+    flex-direction: column;
+}

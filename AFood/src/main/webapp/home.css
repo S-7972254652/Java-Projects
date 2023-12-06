@@ -1,0 +1,845 @@
+/* ----------------------------------------
+--------------------Comman Code------------
+------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    scrollbar-width: auto;
+    /* scrollbar-color: red; */
+}
+
+*::-webkit-scrollbar{
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track{
+    background: #ffffff;
+}
+*::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom,#fc2547 50%, #ff5a00 100%);
+    border-radius: 11px;
+    border: 3px double red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    background-color: #fbf9f7;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #001e31 url(images/loading-48.gif) no-repeat center;
+    z-index: 9999;
+}
+
+
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* ----------------------------------------
+--------------------Comman Code------------
+------------------------------------------- */
+.hero-bg {
+    background-image: url(images/bg-1.jpg);
+    height: auto;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.nav ul li a:hover {
+    color: #fd3e25;
+}
+
+.nav .icon {
+    width: 20px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+#myDIV {
+    margin: auto;
+
+    color: white;
+    animation: mymove 15s infinite;
+}
+
+#myDIV img {
+    margin-top: 150px;
+    width: 121px;
+    height: 123px;
+}
+
+@keyframes mymove {
+    0% {
+
+        transform: rotate(0deg);
+    }
+
+    100% {
+
+        transform: rotate(360deg);
+    }
+}
+
+.text {
+    text-align: center;
+    color: #fff;
+    margin-top: 150px;
+}
+
+
+.text h1 {
+    max-width: 405px;
+    margin: 0 auto;
+    font-size: 76px;
+    font-family: 'Grand Hotel', cursive;
+    line-height: 65px;
+    font-weight: 100;
+}
+
+.text h6 {
+    font-size: 17px;
+    max-width: 691px;
+    margin: 0 auto;
+    padding-top: 37px;
+    line-height: 40px;
+}
+
+
+#myDIV-1 {
+    margin: auto;
+    /* border: 1px solid black; */
+    /* background-color: coral  ; */
+    color: white;
+    animation: mymove 15s infinite;
+}
+
+#myDIV-1 {
+    margin-top: 150px;
+    width: 121px;
+    height: 123px;
+}
+
+@keyframes mymove-1 {
+    0% {
+
+        transform: rotate(0deg);
+    }
+
+    100% {
+
+        transform: rotate(360deg);
+    }
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    border: 2px solid #fff;
+    padding: 10px;
+    width: auto;
+    background-color: #2d2d2d;
+    border-radius: 48px;
+}
+
+input[type=text] {
+    outline: none;
+    color: #fff;
+    width: 68%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.input-group button {
+    padding: 12px 54px;
+    border-radius: 24px;
+    background-image: linear-gradient(to right, #fc2547 0%, #ff5a00 50%, #fc2547 100%);
+}
+
+.input-group button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icon-l {
+    font-size: 29px;
+}
+
+.image-gallery {
+    background-image: url(images/bg-1.jpg);
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+    margin-top: -50px;
+}
+
+.image-gallery::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.image-text {
+    /* color: #fbf9f7; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-text-1 h5 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fc2547;
+    padding-top: 160px;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-top: -19px;
+    max-width: 365px;
+}
+
+.brush {
+    color: #fff;
+}
+
+#br-1 {
+    color: #fc2547;
+    font-size: 40px;
+    padding-top: 200px;
+    transition: all 0.9s;
+    -webkit-transition: ease-in-out 0.2s;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    transition: .5s ease; */
+}
+
+#br-1:hover {
+    transform: translate(0, -50px);
+}
+
+.card {
+    background-color: black;
+    color: #fff;
+    padding-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 10px;
+    border: 2px solid #fff;
+}
+
+.card img {
+    /* border: 2px solid #fff; */
+    width: 100%;
+    transition: all 0.5s;
+    /* position: relative; */
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.st {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.star {
+    color: gold;
+}
+
+.card p {
+    padding-left: 40px;
+}
+
+.card h6 {
+    position: absolute;
+    top: -48px;
+    right: -1px;
+    background-color: red;
+    padding: 21px;
+    border-radius: 0 0 0 66px;
+    font-size: 20px;
+}
+
+.butt {
+    text-align: center;
+}
+
+.butt button {
+    background-image: linear-gradient(to right, #fc2547 0%, #ff5a00 50%, #fc2547 100%);
+    margin-top: 150px;
+    width: 551px;
+    padding: 14px;
+    border-radius: 38px;
+}
+
+.butt button a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+    word-spacing: 8px;
+}
+
+.sub-heading {
+    background: linear-gradient(to right, #fc2547 50%, #ff5a00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.text1 {
+    font-size: 15px;
+    color: #fff;
+    line-height: 35px;
+}
+
+.text2 {
+    font-size: 15px;
+    color: #fff;
+    padding-top: 50px;
+    line-height: 35px;
+}
+
+#blb {
+    font-size: 80px;
+    color: white;
+    transition: all 0.5s;
+
+}
+
+#blb:hover {
+    color: #fd3e25;
+    transform: scale(1.5);
+    transform: translate(0, -50px);
+
+}
+
+.colorful-text {
+    margin-top: 73px;
+}
+
+.para {
+    padding-top: 66px;
+}
+
+.b-101 {
+    text-align: center;
+}
+
+.b-101 p {
+    color: #fff;
+    max-width: 200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.collapse {
+    margin-top: 80px;
+}
+
+.white-bg-img {
+    background-image: url(images/bg-1.jpg);
+    height: auto;
+    padding-bottom: 50px;
+    margin-top: -100px;
+    text-align: center;
+}
+
+.sub-heading-1 {
+    background: linear-gradient(to right, #fc2547 50%, #ff5a00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    padding-top: 100px;
+}
+
+.heading1 {
+    color: #ffffff;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    max-width: 539px;
+    margin: 0 auto;
+}
+
+.app img {
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s;
+}
+
+.app img:hover {
+
+    transform: translate(0, -50px);
+}
+
+footer {
+    background-image: url(images/bg-1.jpg);
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 1;
+    margin-top: 0px;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.group-1 {
+    font-size: 21px;
+}
+.nav ul button{
+    padding: 14px 24px;
+    background-color: #fc2547;
+    border-radius: 30px;
+    display: none;
+}
+.nav ul button a{
+    text-decoration: none;
+    color: #fff;
+}
+@media screen and (max-width:1024px) {
+    
+    .logo {
+        padding-left: 44px;
+    }
+
+    .icons {
+        padding-right: 24px;
+    }
+
+    #myDIV {
+        margin: auto;
+        color: white;
+        animation: mymove 15s infinite;
+        margin-left: 75px;
+    }
+
+    .heading {
+        color: #ffffff;
+        font-family: 'Grand Hotel', cursive;
+        font-size: 72px;
+        font-weight: 400;
+        margin-left: 19px;
+        margin-bottom: 50px;
+    }
+
+    .image-text-1 h5 {
+        font-size: 20px;
+        font-weight: 300;
+        color: #fc2547;
+        padding-top: 160px;
+        padding-left: 19px;
+    }
+
+    .brush {
+        color: #fff;
+        padding-right: 28px;
+        text-align: center;
+    }
+
+    .card {
+        background-color: black;
+        color: #fff;
+        padding-bottom: 20px;
+        overflow: hidden;
+        position: relative;
+        margin-left: 10px;
+        border: 2px solid #fff;
+        margin-right: 10px;
+    }
+
+    .card p {
+        padding-left: 18px;
+    }
+
+    .sub-heading {
+        background: linear-gradient(to right, #fc2547 50%, #ff5a00 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 30px;
+        padding-left: 16px;
+        /* margin-top: 49px; */
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    
+    #myDIV-1 {
+        margin-top: 150px;
+        width: 121px;
+        height: 123px;
+        /* margin-right: 173px; */
+        display: none;
+    }
+
+    #myDIV {
+        display: none;
+    }
+
+    .text {
+        text-align: center;
+        color: #fff;
+        margin-top: 27px;
+    }
+
+    .card {
+        background-color: black;
+        color: #fff;
+        padding-bottom: 20px;
+        overflow: hidden;
+        position: relative;
+        margin-left: 10px;
+        border: 2px solid #fff;
+        margin-right: 10px;
+        height: 332px;
+    }
+
+    .st h3 {
+        font-size: 15px;
+    }
+
+    .card p {
+        padding-left: 9px;
+    }
+
+    .butt button {
+        background-image: linear-gradient(to right, #fc2547 0%, #ff5a00 50%, #fc2547 100%);
+        margin-top: 50px;
+        width: 551px;
+        padding: 14px;
+        border-radius: 38px;
+        margin-bottom: 34px;
+    }
+
+    .para {
+        padding-top: 7px;
+    }
+
+    .text2 {
+        font-size: 15px;
+        color: #fff;
+        padding-top: 10px;
+        line-height: 35px;
+    }
+
+    .brush p {
+        font-size: 14px;
+    }
+
+    .para {
+        padding-top: 7px;
+        padding-right: 18px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .logo {
+        padding-left: 3px;
+    }
+
+    .nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+        transition: all 0.5s;
+    }
+
+    .icons {
+        padding-right: 10px;
+        font-size: -39px;
+    }
+
+    .butt button {
+        background-image: linear-gradient(to right, #fc2547 0%, #ff5a00 50%, #fc2547 100%);
+        margin-top: 50px;
+        width: 100%;
+        padding: 14px;
+        border-radius: 38px;
+        margin-bottom: 34px;
+    }
+
+    .butt button a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 17px;
+        word-spacing: 0px;
+    }
+
+    .heading {
+        color: #ffffff;
+        font-family: 'Grand Hotel', cursive;
+        font-size: 64px;
+        font-weight: 400;
+        margin-left: 19px;
+        margin-bottom: 50px;
+    }
+
+    .text1 {
+        font-size: 15px;
+        color: #fff;
+        line-height: 35px;
+        padding-left: 13px;
+        text-align: center;
+    }
+
+    .text2 {
+        font-size: 15px;
+        color: #fff;
+        padding-top: 10px;
+        line-height: 35px;
+        padding-left: 14px;
+        text-align: center;
+    }
+
+    .heading1 {
+        color: #ffffff;
+        font-family: 'Grand Hotel', cursive;
+        font-size: 46px;
+        font-weight: 400;
+        margin-bottom: 50px;
+        max-width: 539px;
+        margin: 0 auto;
+    }
+
+    .group-2 p {
+        text-align: center;
+    }
+    .app img {
+        width: 150px;
+        height: 150px;
+        transition: all 0.5s;
+    }
+    .brush{
+        display: none;
+    }
+    .dropdown-content{
+        display: none;
+    }
+    .text h1 {
+        max-width: 405px;
+        margin: 0 auto;
+        font-size: 53px;
+        font-family: 'Grand Hotel', cursive;
+        line-height: 65px;
+        font-weight: 100;
+    }
+    .logo {
+        padding-left: 9px;
+    }
+    .input-group{
+        /* padding: -6px 54px; */
+       display: none;
+    }
+    .image-text-1 h5 {
+        font-size: 20px;
+        font-weight: 300;
+        color: #fc2547;
+        padding-top: 21px;
+        padding-left: 19px;
+    }
+    .card {
+        background-color: black;
+        color: #fff;
+        padding-bottom: 20px;
+        overflow: hidden;
+        position: relative;
+        margin-left: 10px;
+        border: 2px solid #fff;
+        margin-right: 10px;
+        height: 332px;
+        margin-bottom: 10px;
+    }
+}
